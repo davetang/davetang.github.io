@@ -9,12 +9,13 @@ params:
   title: davetang.github.io
   description: "root of davetang.github.io"
   keywords: [home]
-  author: Me
+  author: Davo
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2020/06/13"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  githubRepo: davetang.github.io
 
   ShowReadingTime: true
   ShowShareButtons: true
