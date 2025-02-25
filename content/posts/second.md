@@ -3,12 +3,12 @@ title: "Second"
 date: 2025-02-25T22:55:22+09:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["testing"]
 # author: ["Me", "You"] # multiple authors
 author: Davo
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 description: "Description"

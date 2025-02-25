@@ -16,7 +16,9 @@
 Follow the [Quick start guide](https://gohugo.io/getting-started/quick-start/) to create a new site. I will use the [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation) theme, which looks pretty good.
 
 ```console
-sudo apt update && sudo apt install -y hugo
+# use this script to install hugo
+# https://github.com/davetang/install_scripts/blob/main/scripts/hugo.sh
+
 hugo new site quickstart -f yml
 cd quickstart
 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
@@ -67,6 +69,8 @@ There is a helper script to create a new post.
 script/new_post.sh
 # Usage: script/new_post.sh <name-of-post.md>
 ```
+
+Set `draft: false` or else the page will not be rendered.
 
 ## GitHub pages
 

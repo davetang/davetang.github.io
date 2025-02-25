@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.126.1</generator>
     <language>en-au</language>
-    <lastBuildDate>Tue, 20 Jun 2023 09:44:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2025 22:55:22 +0900</lastBuildDate>
     <atom:link href="https://davetang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second</title>
+      <link>https://davetang.github.io/posts/second/</link>
+      <pubDate>Tue, 25 Feb 2025 22:55:22 +0900</pubDate>
+      <guid>https://davetang.github.io/posts/second/</guid>
+      <description>Description</description>
+    </item>
     <item>
       <title>First Post</title>
       <link>https://davetang.github.io/posts/first-post/</link>

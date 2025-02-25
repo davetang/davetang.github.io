@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>davetang.github.io</title>
-    <link>https://davetang.github.io/</link>
-    <description>Recent content on davetang.github.io</description>
+    <title>Testing on davetang.github.io</title>
+    <link>https://davetang.github.io/tags/testing/</link>
+    <description>Recent content in Testing on davetang.github.io</description>
     <image>
       <title>davetang.github.io</title>
       <url>https://davetang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,19 +12,12 @@
     <generator>Hugo -- 0.126.1</generator>
     <language>en-au</language>
     <lastBuildDate>Tue, 25 Feb 2025 22:55:22 +0900</lastBuildDate>
-    <atom:link href="https://davetang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davetang.github.io/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Second</title>
       <link>https://davetang.github.io/posts/second/</link>
       <pubDate>Tue, 25 Feb 2025 22:55:22 +0900</pubDate>
       <guid>https://davetang.github.io/posts/second/</guid>
-      <description>Description</description>
-    </item>
-    <item>
-      <title>First Post</title>
-      <link>https://davetang.github.io/posts/first-post/</link>
-      <pubDate>Tue, 20 Jun 2023 09:44:10 +0900</pubDate>
-      <guid>https://davetang.github.io/posts/first-post/</guid>
       <description>Description</description>
     </item>
   </channel>

@@ -16,7 +16,7 @@ params:
   author: Davo
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "2020/06/13"
+  DateFormat: "02 Jan 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   githubRepo: davetang.github.io
