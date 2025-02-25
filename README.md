@@ -1,29 +1,22 @@
-Table of Contents
-=================
+## Table of Contents
 
-* [README](#readme)
-   * [Quick start](#quick-start)
-   * [Configuration](#configuration)
-   * [Posts](#posts)
-   * [GitHub pages](#github-pages)
-   * [Useful links](#useful-links)
-
-<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+- [README](#readme)
+  - [Quick start](#quick-start)
+  - [Configuration](#configuration)
+  - [Posts](#posts)
+  - [GitHub pages](#github-pages)
+  - [Useful links](#useful-links)
 
 # README
 
-[Hugo](https://gohugo.io/) is a framework for building static websites and was
-used to build [this site](https://davetang.github.io/).
+[Hugo](https://gohugo.io/) is a framework for building static websites and was used to build [https://davetang.github.io](https://davetang.github.io/).
 
 ## Quick start
 
-Follow the [Quick start guide](https://gohugo.io/getting-started/quick-start/)
-to create a new site. I will use the
-[hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)
-theme, which looks pretty good.
+Follow the [Quick start guide](https://gohugo.io/getting-started/quick-start/) to create a new site. I will use the [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation) theme, which looks pretty good.
 
 ```console
-module load hugo
+sudo apt update && sudo apt install -y hugo
 hugo new site quickstart -f yml
 cd quickstart
 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
@@ -33,16 +26,11 @@ hugo server
 
 ## Configuration
 
-The config file (`config.yml`) controls many settings of the site. Use the
-PaperMod sample
-[config.yml](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml)
-to get started.
+The config file (`config.yml`) controls many settings of the site. Use the PaperMod sample [config.yml](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml) to get started.
 
 ## Posts
 
-[Archetypes](https://gohugo.io/content-management/archetypes/) are templates
-used when creating new content. These template files are stored in
-`archetypes`. For example `archetypes/default.md` looks like this:
+[Archetypes](https://gohugo.io/content-management/archetypes/) are templates used when creating new content. These template files are stored in `archetypes`. For example `archetypes/default.md` looks like this:
 
 ```
 ---
@@ -58,18 +46,11 @@ Using `hugo new` will add a new page using the default archetype.
 hugo new posts/my-first-post.md
 ```
 
-Use the PaperMod
-[template](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-pagemd)
-to create a new post archetype by saving the template in `archetypes/post.md`.
+Use the PaperMod [template](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-pagemd) to create a new post archetype by saving the template in `archetypes/post.md`.
 
-The template was edited such that new posts will be dynamically populated with
-a title (created from the file name) and an updated date time (see [template
-variables](https://gohugo.io/content-management/archetypes/#create-a-new-archetype-template)).
+The template was edited such that new posts will be dynamically populated with a title (created from the file name) and an updated date time (see [template variables](https://gohugo.io/content-management/archetypes/#create-a-new-archetype-template)).
 
-[Site variables](https://gohugo.io/variables/site/) were also used in the
-archetype template; this means that updates to the config file will
-automatically update variables in the archetype. For example to use the base
-URL from the config file, use the following in the archetype file:
+[Site variables](https://gohugo.io/variables/site/) were also used in the archetype template; this means that updates to the config file will automatically update variables in the archetype. For example to use the base URL from the config file, use the following in the archetype file:
 
     {{ .Site.BaseURL }}
 
@@ -89,9 +70,7 @@ script/new_post.sh
 
 ## GitHub pages
 
-Follow these
-[instructions](https://gohugo.io/hosting-and-deployment/hosting-on-github/) to
-deploy to GitHub Pages using GitHub Actions.
+Follow these [instructions](https://gohugo.io/hosting-and-deployment/hosting-on-github/) to deploy to GitHub Pages using GitHub Actions.
 
 ## Useful links
 

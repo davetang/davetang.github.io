@@ -97,7 +97,7 @@ menu:
   main:
     - identifier: blog
       name: blog
-      url: https://davetang.org/muse
+      url: https://davetang.github.io/muse/
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
