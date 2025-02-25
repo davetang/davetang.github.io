@@ -2,7 +2,11 @@ baseURL: https://davetang.github.io/
 languageCode: en-au
 title: davetang.github.io
 theme: 'PaperMod'
-paginate: 5
+
+pagination:
+  disableAliases: false
+  pagerSize: 10
+  path: page
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
