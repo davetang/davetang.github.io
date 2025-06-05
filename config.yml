@@ -69,7 +69,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to davetang.github.io.
+    Content: Welcome to yet another homepage of Dave Tang, slacker and bioinformatician. This page was created so users wouldn't get a 404 error when visiting https://davetang.github.io./.
 
   socialIcons:
     - name: mastodon
